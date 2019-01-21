@@ -32,7 +32,6 @@ checkstyleTest {
 
 //SpotBugs
 spotbugs {
-	toolVersion = '3.1.10'
 	ignoreFailures = false
 }
 
@@ -40,8 +39,6 @@ spotbugs {
 mainClassName = 'App'
 
 dependencies {
-
-	spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.7.1'
 
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:23.0'
