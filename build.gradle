@@ -17,7 +17,7 @@ plugins {
     id 'checkstyle'
 	
 	//SpotBugs einbinden
-	id "com.github.spotbugs"
+	id "com.github.spotbugs" version "1.6.9"
 }
 //CheckStyle
 checkstyle {
@@ -32,6 +32,7 @@ checkstyleTest {
 
 //SpotBugs
 spotbugs {
+	toolVersion = '3.1.10'
 	ignoreFailures = false
 }
 
