@@ -21,7 +21,7 @@ plugins {
 }
 //CheckStyle
 checkstyle {
-	configFile file("/checkstyle.xml")
+	configFile file("./checkstyle.xml")
 }
 checkstyleMain {
 	source ='src/main/java'
