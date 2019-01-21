@@ -5,4 +5,5 @@ jdk:
   - oraclejdk8
 
 script:
-  - ./gradlew build
+  - git update-index --chmod=+x gradlew
+  - ./gradlew
